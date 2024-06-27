@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Sorrsinho Deguinho</title>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes moveIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6e6;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 2s;
+        }
+
+        h1 {
+            color: #ff4d4d;
+            animation: moveIn 2s;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s 1s forwards;
+            opacity: 0;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            animation: fadeIn 2s 2s forwards;
+            opacity: 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            animation: fadeIn 2s 3s forwards;
+            opacity: 0;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+            animation: fadeIn 2s 4s forwards;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Para Minha o amor da minha vida </h1>
+        <img src="amorzinho.jpeg" width="300" height="200">
+        <p>Valentina,</p>
+        <p>Você é a pessoa mais especial do mundo para mim. Cada momento ao seu lado é um tesouro e agradeço todos os dias por ter você na minha vida.</p>
+        <p>Eu te amo mais do que palavras podem expressar. Você é minha inspiração, minha alegria, e meu amor eterno.</p>
+        <p>Com todo meu amor,</p>
+        <p>Gabriel</p>
+    </div>
+    <div class="footer">
+        <p>Feito com amor por Gabriel</p>
+    </div>
+</body>
+</html>
